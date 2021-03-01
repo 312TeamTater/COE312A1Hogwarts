@@ -1,5 +1,5 @@
 
-abstract public class Location {//Superclass, CHANGE TO INTERFACE
+abstract public class Location {//Superclass
 
 	String locationName;
 	NonPlayerCharacter[] chars = new NonPlayerCharacter[1]; //Only one character needed, but in case there is a need for more than 1 character, this still works by changing the size. Ideally would use a data structure such as a Vector or a List
