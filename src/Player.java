@@ -7,8 +7,7 @@ public class Player {
 	//A better method would be to have an id for each location, but we realised too late
 	int locationid = 0; //0 = start, 1 = Great Hall, 2 = Headoffice, 3 = library. should be enum
 	Location[] position = new Location[4]; //uses locationid for the specific
-	GreatHall hall = new GreatHall(); //will be removed in favour of the array
-	Library libra = new Library();
+
 	
 	Player()
 	{
